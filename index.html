@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Transaction Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <h2>♡ TRANSACTION GENERATOR ♡</h2>
+  <p class="subtitle">AUTO DATA CLEANER</p>
+
+  <label>INPUT DATA</label>
+
+  <textarea id="inputData"
+    placeholder="Tempel tabel transaksi ente di sini..."></textarea>
+
+  <div class="actions">
+    <button id="processBtn">✦ PROSES DATA</button>
+    <button id="resetBtn">RESET</button>
+  </div>
+
+  <p id="status">♡ Siap membaca transaksi!</p>
+
+  <div class="result-head">
+    <label>HASIL DATA RAPI</label>
+    <button id="copyAll">SALIN HASIL</button>
+  </div>
+
+  <textarea id="outputData"
+    readonly
+    placeholder="Hasil transaksi akan muncul otomatis di sini..."></textarea>
+
+  <p id="total">♡ Total Data: 0 Transaksi</p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
